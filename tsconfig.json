@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "target": "es2018",
+    "baseUrl": ".",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noStrictGenericChecks": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "lib": ["es2017", "dom"],
+    "noImplicitAny": false,
+    "declaration": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "outDir": "./dist"
+  },
+  "files": ["./reactive.ts"]
+}
