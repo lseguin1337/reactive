@@ -17,5 +17,8 @@
     "suppressImplicitAnyIndexErrors": true,
     "outDir": "./dist"
   },
-  "files": ["./reactive.ts"]
+  "files": [
+    "./reactive.ts",
+    "./svelte-reactive.ts"
+  ]
 }

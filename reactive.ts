@@ -1,7 +1,7 @@
 import { scope, register } from "./utils/magic-context";
 import { useSubscription } from "./composables/use-subscription";
 
-interface Reactive<T> {
+export interface Reactive<T> {
   subscribe: (handler: (v: T) => void) => (() => void),
   value: T;
 }
